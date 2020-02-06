@@ -1,15 +1,15 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background: #fff;
+    color: #222;
+    height: 100%;
+    margin-top: 10px;
   }
-  ul {
-    display: inline-block;
-  }
-  
+
   li {
-    text-decoration: none;
     list-style: none;
     display: inline-block;
-    margin: 17px 15px 0 0;
+    margin: 14px 15px 0 0;
   }
   
   a {
@@ -21,13 +21,12 @@ body {
     text-decoration-line: underline;
   }
   
-  #div-nav {
-    max-width: 100%;
+  .div-nav {
     margin: 7px 0 0 10px;
     font-size: 13px;
   }
   
-  #left-nav {
+  .left-nav {
     float: left;
     padding-left: 15px;
     color: #000;
@@ -35,7 +34,7 @@ body {
     align-items: left;
   }
   
-  #right-nav {
+  .right-nav {
     float: right;
     padding-right: 29px;
     align-items: right;
@@ -44,22 +43,26 @@ body {
     padding-bottom: 10px;
   }
   .dots {
-    height: 25px;
-    opacity: 0.7;
-    position: relative;
+    opacity: 0.75;
+    vertical-align: middle;
+    padding-right: 15px;
   }
-  
-  .main img {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    margin-top: -323px;
-    margin-left: -136px;
-  }
-  
-  svg:hover {
+
+  .dots:hover {
     opacity: 1;
+    cursor: pointer;
   }
+  
+  main {
+    text-align:center;
+    padding-top: 200px;
+  }
+
+ #logo {
+   vertical-align: center;
+   margin-bottom: 25px;
+   
+ }
   
   #btn-signin {
     border: 5px solid #4285f4;
@@ -69,4 +72,86 @@ body {
     background: linear-gradient(90deg, #4387fd, #4683ea);
     color: #eee;
   }
+
+
+h2 {
+  padding: 10px 0 0 27px;
+  font-size: 15px;
+  text-align: left;
+  color: rgba(0,0,0,.54);
   
+}
+
+.foot-list {
+  color: rgba(0,0,0,.54);
+  border-top: 0.5px ridge rgba(0,0,0,.54);
+}
+
+  footer {
+    position: absolute;
+    background: #f2f2f2;
+    bottom: 0;
+    width: 100%;
+    line-height: 20px;
+    vertical-align: center;
+  }
+
+#searchbar {
+  font-size: 16px;
+  display: inline-block;
+  border: 0.5px solid #dfe1e5;
+  border-radius: 50px;
+  height: 44px; 
+  width: 28%;
+  background-color: transparent;
+  padding-left: 40px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Magnifying_glass_icon.svg/490px-Magnifying_glass_icon.svg.png");
+  background-size: 16px 16px;
+  background-repeat: no-repeat;
+  background-position: 15px 1rem; 
+}
+
+#searchbar:focus {
+  box-shadow: 0px 1px 8px #dfe1e5;
+}
+
+#searchbar:hover {
+  box-shadow: 0px 1px 8px #dfe1e5;
+}
+
+.search-buttons {
+  margin: 16px 0 0 0;
+  display: block;
+  text-align: center;
+}
+
+.btnsearch {
+  border-radius: 4px;
+  text-align: center;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  color: #5F6368;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.btnsearch:focus {
+  border: 1px solid #4d90fe;
+  outline: none;
+}
+
+.btnsearch:-moz-focus-inner {
+  border: 0;
+}
+
+.btnsearch:hover {
+  color: #000;
+  border: 1px solid #dfe1e5;
+  background-color: #f2f2f2e0;
+}
