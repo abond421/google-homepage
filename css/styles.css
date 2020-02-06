@@ -63,6 +63,31 @@ body {
    margin-bottom: 25px;
    
  }
+
+ #searchPage #logo {
+   vertical-align: top;
+   cursor: pointer;
+   padding: 0 19px 0 19px;
+   margin-top: 18px;
+   height: 30px;
+ }
+
+ #searchPage .search-nav {
+   margin-top: 18px;
+ }
+
+ #searchPage #searchbar {
+   margin-left: 10px;
+ }
+
+ #searchPage #searchbar:focus {
+   width: 33%;
+   background-position: 15px 1rem;
+ }
+
+ #searchPage .dots:hover {
+  box-shadow: 0px 1px 8px rgba(0,0,0,.54);
+ }
   
   #btn-signin {
     border: 5px solid #4285f4;
