@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html id="searchPage">
+    <title>Apples - Google Search</title>
     <head>
         <link rel="stylesheet" type="text/css" href="css/reset.css">
         <link rel="stylesheet" type="text/css" href="css/styles.css">
     </head>
     <header>
         <nav class="search-nav">
+            <div>
             <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
             <input type=text id="searchbar">
             <!-- Add Magnifying Glass-->
@@ -13,13 +15,56 @@
                 <img class="dots" src="images/google-apps.png"></img>
                 <button id="btn-signin">Sign in</button>
             </ul>
-
-
+            </div>
+            <div id="nav-buttons">
+                <ul>
+                    <button class="searchbtn" id="All-Select">All</button>
+                    <button class="searchbtn">Images</button>
+                    <button class="searchbtn">Shopping</button>
+                    <button class="searchbtn">News</button>
+                    <button class="searchbtn">Videos</button>
+                    <button class="searchbtn">More</button>
+                    <button class="searchbtn" id="Settings-Gap">Settings</button>
+                    <button class="searchbtn">Tools</button>
+                </ul>
+            </div>
 
         </nav>
     </header>
     <body>
+        <section id="resultnum">
+            <p>About 5,490,000,000 results (0.98 seconds)</p>
+        </section>
+        <section class="results">
+            <div class="link-div">
+            <h4>en.wikipedia.com > wiki > Apple</h4>
+            <img class="dropdown-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Black_triangle.svg/2000px-Black_triangle.svg.png">
+            </div>
+            <h3>Apple - Wikipedia</h3>
+            <p>An apple is a sweet edible fruit produced by an <strong>apple</strong> tree (Malus domestica). Apple trees are cultivvated worldwide and are the most widely grown species in the ...</p>
+        </section>
 
+        <section id="description">
+            <div id="imagebox">
+                <div id="bigApple">
+                    <img src="images/big-apple.jpeg">
+                </div>
+                <div id="smallApple">
+                    <img src="images/apple1.jpeg">
+                    <img src="images/apple2.jpeg">
+                    <img src="images/apple3.jpeg">
+                    <img src="images/apple4.jpeg">
+                    <img src="images/apple5.jpeg">
+                    <img src="images/apple6.jpeg">
+                </div>
+                <h1>Apple</h1>
+                <h5>Fruit</h5>  
+            </div>
+            <section>
+                <p>An apple is a sweet, edible fruit produced by an apple tree. Apple trees are cultivated worldwide and are the most widely grown species in the genus Malus. The tree originated in Central Asia, where its wild ancestor, Malus sieversii, is still found today.</p>
+                <p><a href="#">Wikipedia</a></p>
+            </section>
+        </section>
     </body>
 
     

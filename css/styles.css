@@ -68,8 +68,9 @@ body {
    vertical-align: top;
    cursor: pointer;
    padding: 0 19px 0 19px;
-   margin-top: 18px;
+   margin: 18px 0 0 0;
    height: 30px;
+   
  }
 
  #searchPage .search-nav {
@@ -185,4 +186,128 @@ h2 {
 p {
   display: inline-block;
   
+}
+
+#nav-buttons {
+  width: 100%;
+  display: inline-block;
+  outline: none;
+  border-bottom: 1px solid rgba(95, 99, 104, 0.466);
+}
+
+.searchbtn {
+  outline: none;
+  padding: 16px 12px 10px 12px;
+  background: none !important;
+  border: none;
+  cursor: pointer;
+
+}
+
+#All-Select {
+  border-bottom: 4px solid #1a73e8;
+  color: #1a73e8;
+  margin-left: 150px;
+}
+
+#Settings-Gap {
+  padding-left: 80px;
+}
+
+#resultnum {
+  color: #70757a;
+  margin-left: 150px;
+  font-size: 14px;
+  line-height: 43px;
+  padding-bottom: 20px;
+}
+
+.dropdown-img {
+  display: inline;
+  height: 6px;
+  width: 8px;
+
+}
+
+.results {
+  margin-left: 150px;
+  width: 600px;
+  display: inline-block;
+}
+
+.results p {
+  font-weight: normal;
+  text-align: left;
+  font-size: 14px;
+  padding-top: 1px;
+  line-height: 1.3;
+}
+
+.results h4:hover {
+  cursor: pointer;
+}
+
+.results h3:hover {
+  cursor: pointer;
+}
+
+#searchPage h3 {
+  font-size: 20px;
+  line-height: 1.3;
+  color: #1a0dad;
+}
+
+#searchPage h4 {
+  display: inline-block;
+  padding-bottom: 6px;
+}
+
+#link-div {
+  display: inline-block;
+}
+
+strong {
+  font-weight: bold;
+}
+
+#description {
+  position: absolute;
+  display: inline-block;
+  margin-left: 50px;
+  border: 1.3px solid #dfe1e5;
+  border-radius: 7px;
+  overflow: hidden;
+  max-width: 470px;
+  
+}
+
+#imagebox {
+  width: 470px;
+  max-height: 200px;
+  padding-bottom: 20px;
+  line-height: 0px;
+  
+}
+
+#bigApple {
+  display:inline-block;
+}
+
+#smallApple {
+  display: inline-block;
+  position: absolute;
+  width: 340px;
+  max-height: 220px;
+}
+
+#searchPage h1 {
+  color: #000;
+  line-height: 1.2;
+  font-size: 30px;
+  font-weight: normal;
+  margin: 10px 0 10px 10px;
+}
+
+#searchPage h5 {
+  margin-left: 10px;
 }
