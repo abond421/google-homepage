@@ -75,6 +75,7 @@ body {
 
 
 h2 {
+  display: inline-block;
   padding: 10px 0 0 27px;
   font-size: 15px;
   text-align: left;
@@ -154,4 +155,9 @@ h2 {
   color: #000;
   border: 1px solid #dfe1e5;
   background-color: #f2f2f2e0;
+}
+
+p {
+  display: inline-block;
+  
 }
