@@ -389,3 +389,52 @@ width: 600px;
   margin: 0px;
   padding-bottom: 16px;
 }
+
+
+#navigation {
+  margin: 0 0 50px 140px;
+}
+
+#navigation td {
+  text-align: center;
+}
+
+.g-image {
+  height:5px;
+  width: 28px;
+  background-image: url(/images/nav.webp);
+  background-repeat: no-repeat;
+  background-position-x: -24px;
+}
+
+.o-image {
+  background-image: url(/images/nav.webp);
+  background-repeat: no-repeat;
+  text-align: center;
+  background-position-x: -74px;
+  height:5px;
+  width: 21px;
+}
+
+.o-page {
+
+  width: 21px;
+  height: 5px;
+  background-image: url(/images/nav.webp);
+  background-repeat: no-repeat;
+  background-position-x: -53px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+
+
+.next-image {
+  width: 82px;
+  height: 5px;
+  background-image: url(/images/nav.webp);
+  background-repeat: no-repeat;
+  background-position-x: -96px;
+  text-align: right;
+  padding-top: 40px;
+}
