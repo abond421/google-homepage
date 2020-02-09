@@ -352,7 +352,9 @@ strong {
 display: grid;
 grid-template-columns: repeat(2, 1fr);
 grid-template-rows: repeat(2, 1fr);
-grid-column-gap: 0px;
+grid-column-gap: 3px;
 grid-row-gap: 3px;
 padding-bottom: 3px;
+width: 600px;
+
 }
