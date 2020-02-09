@@ -397,44 +397,53 @@ width: 600px;
 
 #navigation td {
   text-align: center;
+  display: inline-block;
+}
+
+#navigation td:hover {
+  cursor: pointer;
 }
 
 .g-image {
   height:5px;
   width: 28px;
-  background-image: url(/images/nav.webp);
+  background-image: url('../images/nav.webp');
   background-repeat: no-repeat;
   background-position-x: -24px;
+  display: inline-block;
+  padding-top: 45px;
 }
 
 .o-image {
-  background-image: url(/images/nav.webp);
-  background-repeat: no-repeat;
-  text-align: center;
-  background-position-x: -74px;
-  height:5px;
-  width: 21px;
+    width: 21px;
+    height: 5px;
+    background-image: url('../images/nav.webp');
+    background-repeat: no-repeat;
+    background-position-x: -53px;
+    text-align: center;
+    padding-top: 40px;
+    display: inline-block;
 }
 
 .o-page {
 
   width: 21px;
   height: 5px;
-  background-image: url(/images/nav.webp);
+  background-image: url('../images/nav.webp');
   background-repeat: no-repeat;
-  background-position-x: -53px;
+  background-position-x: -74px;
   text-align: center;
-  padding-top: 40px;
+  padding-top: 36px;
+  display: inline-block;
 }
 
-
-
 .next-image {
-  width: 82px;
-  height: 5px;
-  background-image: url(/images/nav.webp);
+  background-image: url('../images/nav.webp');
+  width: 71px;
+  height: 40px;
   background-repeat: no-repeat;
   background-position-x: -96px;
   text-align: right;
   padding-top: 40px;
+  display: block;
 }
